@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-IndicatorDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-IndicatorDemo.iml" group="IndicatorDemo" />
       <module fileurl="file://$PROJECT_DIR$/IndicatorDemo.iml" filepath="$PROJECT_DIR$/IndicatorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/IndicatorDemo-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/IndicatorDemo-app.iml" group="IndicatorDemo/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -1,32 +1,23 @@
 package com.example.pqq.indicatordemo;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.animation.LinearOutSlowInInterpolator;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AccelerateInterpolator;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
-import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.target.Target;
-import com.example.pqq.indicatordemo.view.OtherWaveView;
-import com.example.pqq.indicatordemo.view.beizer.BeizerCicleView;
 import com.example.pqq.indicatordemo.view.beizer.BeizerView;
 import com.example.pqq.indicatordemo.view.beizer.BeizerViewPager;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     private BeizerView beizerView;
@@ -97,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public class MyPagerAdapter extends android.support.v4.view.PagerAdapter {
+    public class MyPagerAdapter extends PagerAdapter {
         private List<Object> list;
         private Context context;
         private LayoutInflater mLayoutInflater;

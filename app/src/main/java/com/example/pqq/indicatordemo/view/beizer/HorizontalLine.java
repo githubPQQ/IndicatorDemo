@@ -1,6 +1,5 @@
 package com.example.pqq.indicatordemo.view.beizer;
 
-import android.graphics.Point;
 import android.graphics.PointF;
 
 /**
